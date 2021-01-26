@@ -1,0 +1,204 @@
+ul.glide__slides>li {
+    cursor: pointer;
+}
+
+ul.glide__slides>li>img {
+    border: 1px solid #efefef;
+}
+
+.glide__track {
+    background: #f3f3f3;
+}
+
+ul.glide__slides {
+    margin-top: -1px;
+    margin-bottom: -10px;
+    margin-left: -20px;
+}
+
+.glide__arrow {
+    background-color: #ffffff70;
+}
+
+.glide__arrow--right {
+    right: 1em;
+}
+
+li.glide__slide {
+    position: relative;
+}
+
+span.ig_lb_txt_substr>a {
+    color: #aaa;
+}
+
+img.ig_carousel_logo {
+    position: absolute;
+    width: 27px;
+    right: 5px;
+    top: 10px;
+    z-index: 100;
+    opacity: 0.75;
+    border: none !important;
+}
+
+/* lightbox */
+
+div#ig_lb_overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000000cc;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+div#ig_lb_proper {
+    position: absolute;
+    background: white;
+    padding: 30px;
+    border: 2px solid #efefef;
+    border-radius: 5px;
+    z-index: 101;
+    width: 600px;
+    top: -90%;
+    left: 21.5%;
+}
+
+.ig_lb_inner {
+    border: 1px solid #efefef;
+    border-radius: 7px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+span.ig_prof_photo {
+    display: inline-block;
+    width: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #999;
+}
+
+.ig_lb_top {
+    margin-bottom: 15px;
+}
+
+span.ig_name_dat_cont {
+    display: inline-block;
+    padding-left: 15px;
+    position: relative;
+    bottom: 30px;
+}
+
+span.ig_prof_name {
+    display: block;
+    font-weight: 600;
+}
+
+span.ig_post_date {
+    color: #9c9c9c;
+    font-size: 14px;
+}
+
+img.ig_lb_logo {
+    display: inline-block;
+    width: 40px;
+    position: absolute;
+    right: 45px;
+    top: 45px;
+}
+
+span.ig_lb_likes {
+    display: inline-block;
+    width: 35px;
+}
+
+span.ig_lb_comments {
+    display: inline-block;
+    width: 40px;
+}
+
+span.ig_lb_share {
+    display: inline-block;
+    width: 40px;
+}
+
+.ig_lb_mid {
+    margin-bottom: 15px;
+}
+
+.ig_lb_bottom {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+
+.ig_lb_text {
+    margin-bottom: 30px;
+}
+
+span.ig_lb_share_cont {
+    float: right;
+}
+
+span.ig_lb_likes_count {
+    margin-right: 15px;
+}
+
+/* RESPONSIVENESS */
+
+/* 1024px */
+
+@media (max-width: 1024px) {
+    div#ig_lb_proper {
+        left: 20.5%;
+    }
+}
+
+/* 800px */
+
+@media (max-width: 800px) {
+    div#ig_lb_proper {
+        left: 11%;
+    }
+}
+
+/* 768px */
+
+@media (max-width: 768px) {
+    div#ig_lb_proper {
+        left: 9%;
+    }
+}
+
+/* 414px */
+@media(max-width: 414px){
+    div#ig_lb_proper {
+        width: 384px;
+        left: 0%;
+        padding: 10px;
+        top: -34%;
+    }
+    img.ig_lb_logo {
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+    li.glide__slide {
+        list-style: none;
+    }
+    .ig_lb_inner {
+        padding: 10px;
+    }
+    span.ig_prof_photo {
+        width: 60px;
+    }
+    span.ig_name_dat_cont {
+        width: 206px;
+        top: -10px;
+        font-size: 14px;
+    }
+    
+}

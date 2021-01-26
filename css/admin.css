@@ -1,0 +1,172 @@
+.sbwcir_settings_cont {
+    overflow: auto;
+}
+
+button#sbwcir_parse_reviews {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+div#sbwc-ir-settings {
+    width: 50%;
+    min-width: 360px;
+}
+
+div#sbwc-ir-settings label {
+    display: block;
+    padding: 15px 0px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+div#sbwc-ir-settings textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input#sbwcir_submit_json_links, button#sbwcir_purge_reviews {
+    background: #0073aa;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+span.sbwcir_info {
+    display: block;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 5px;
+    font-style: italic;
+}
+
+div#sbwc_inst_rev_custom_mbox label {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+
+.data_cont {
+    width: 50%;
+    min-width: 360px;
+    overflow: auto;
+    padding: 15px;
+    position: relative;
+    bottom: 15px;
+}
+
+.user_data {
+    overflow: auto;
+}
+
+.user_data label {
+    display: block;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.data_cont input {
+    width: 99%;
+}
+
+.data_cont textarea {
+    width: 99%;
+    height: 150px;
+}
+
+input#sbwcir_data_link {
+    width: 99%;
+    min-width: 360px;
+}
+
+img#sbwcir_user_prof_pic {
+    border-radius: 3px;
+    border: 2px solid #ccc;
+}
+
+img#sbwcir_post_img {
+    width: 99%;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+}
+
+img#sbwcir_post_thumb {
+    width: 50%;
+    height: auto;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+}
+
+div#sbwc_inst_rev_custom_mbox {
+    overflow: auto;
+}
+
+/* ig posts purge */
+
+div#sbwcir_conf_purge_ol {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000000ad;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+div#sbwcir_conf_purge_ol {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #000000ad;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+div#sbwcir_conf_purge_dl {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    z-index: 102;
+    position: absolute;
+    font-size: 16px;
+    left: 32%;
+    top: 26%;
+}
+
+span#sbwcir_purge_cancel {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: 15px;
+    top: 15px;
+    background: grey;
+    text-align: center;
+    color: white;
+    line-height: 1;
+    cursor: pointer;
+}
+
+a#sbwcir_conf_purge {
+    display: block;
+    background: #0073aa;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#sbwcir_conf_purge_dl>p>b {
+    font-size: 16px;
+    line-height: 3;
+}
